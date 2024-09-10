@@ -48,7 +48,7 @@ document.getElementById('swipe-right').addEventListener('click', () => {
     const animal = animals[currentIndex];
     
     // Defina o número de telefone e a mensagem
-    const phoneNumber = "SEU_NUMERO"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
+    const phoneNumber = "41 999446689"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
     const message = `Estou interessado em adotar o ${animal.name}.`;
 
     // Monta o link para o WhatsApp
@@ -60,3 +60,17 @@ document.getElementById('swipe-right').addEventListener('click', () => {
 
 // Carregar o primeiro animal ao abrir a página
 loadAnimal(currentIndex);
+
+// Adicionar links para páginas de informações
+document.getElementById('denuncia-link').addEventListener('click', () => {
+    alert('Página de denúncia de maus-tratos ainda não implementada.');
+});
+document.getElementById('contato-link').addEventListener('click', () => {
+    alert('Página de contatos de ajuda ainda não implementada.');
+});
+document.getElementById('como-adotar-link').addEventListener('click', () => {
+    alert('Página sobre como adotar um pet ainda não implementada.');
+});
+document.getElementById('o-que-preciso-link').addEventListener('click', () => {
+    alert('Página sobre o que é preciso para adotar um pet ainda não implementada.');
+});
