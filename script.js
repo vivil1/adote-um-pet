@@ -33,10 +33,19 @@ document.getElementById('swipe-left').addEventListener('click', () => {
     loadAnimal(currentIndex);
 });
 
-// "Swipe" para direita (também passa para o próximo animal)
+// "Swipe" para direita (redirecionar para WhatsApp)
 document.getElementById('swipe-right').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % animals.length; // Volta para o primeiro após o último
-    loadAnimal(currentIndex);
+    const animal = animals[currentIndex];
+    
+    // Defina o número de telefone e a mensagem
+    const phoneNumber = "41 999446689"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
+    const message = `Estou interessado em adotar o ${animal.name}.`;
+
+    // Monta o link para o WhatsApp
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    
+    // Redireciona para o WhatsApp
+    window.location.href = whatsappUrl;
 });
 
 // Carregar o primeiro animal ao abrir a página
