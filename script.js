@@ -1,4 +1,4 @@
-
+// Dados dos 5 animais
 const animals = [
     {
         name: "Caramelo",
@@ -7,23 +7,24 @@ const animals = [
     },
     {
         name: "Suzão",
-        description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo institudto SOS 4 patas.",
+        description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
         imageUrl: "IMG-20240910-WA0066.jpg"
     },
     {
         name: "Sandro",
-        description: "Cãozinho amigável e amoroso, porte M, resgatado dasenchentes do RS.",
+        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
         imageUrl: "IMG-20240910-WA0067.jpg"
     },
     {
         name: "Ana",
-        description: "FIV e FELV negativo, castrada, vacinada. Ela é bem assustada, então a família que quiser adotar terá que ter paciência com ela, mas nada que impessa de ter uma família."
+        description: "FIV e FELV negativo, castrada, vacinada. Ela é bem assustada, então a família que quiser adotar terá que ter paciência com ela, mas nada que impeça de ter uma família.",
         imageUrl: "IMG-20240910-WA0064.jpg"
     },
     {
         name: "Luisa",
-        description: "Precisa ser filha úncia, não gosta de dividir a atenção com outros doguinhos, mas é extremamente carinhosa e merece um lar cheio de amor.",
+        description: "Precisa ser filha única, não gosta de dividir a atenção com outros doguinhos, mas é extremamente carinhosa e merece um lar cheio de amor.",
         imageUrl: "IMG-20240910-WA0068.jpg"
+    }
 ];
 
 let currentIndex = 0;
@@ -47,8 +48,8 @@ document.getElementById('swipe-right').addEventListener('click', () => {
     const animal = animals[currentIndex];
     
     // Defina o número de telefone e a mensagem
-    const phoneNumber = "41 999446689"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
-    const message = `Estou interessado em adotar o (a) ${animal.name}.`;
+    const phoneNumber = "SEU_NUMERO"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
+    const message = `Estou interessado em adotar o ${animal.name}.`;
 
     // Monta o link para o WhatsApp
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
