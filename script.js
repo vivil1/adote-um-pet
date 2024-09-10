@@ -8,22 +8,22 @@ const animals = [
     {
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
-        imageUrl: "IMG-20240910-WA0066.jpg"
+        imageUrl: "images/IMG-20240910-WA0066.jpg"
     },
     {
         name: "Sandro",
         description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
-        imageUrl: "IMG-20240910-WA0067.jpg"
+        imageUrl: "images/IMG-20240910-WA0067.jpg"
     },
     {
         name: "Ana",
         description: "FIV e FELV negativo, castrada, vacinada. Ela é bem assustada, então a família que quiser adotar terá que ter paciência com ela, mas nada que impeça de ter uma família.",
-        imageUrl: "IMG-20240910-WA0064.jpg"
+        imageUrl: "images/IMG-20240910-WA0064.jpg"
     },
     {
         name: "Luisa",
         description: "Precisa ser filha única, não gosta de dividir a atenção com outros doguinhos, mas é extremamente carinhosa e merece um lar cheio de amor.",
-        imageUrl: "IMG-20240910-WA0068.jpg"
+        imageUrl: "images/IMG-20240910-WA0068.jpg"
     }
 ];
 
