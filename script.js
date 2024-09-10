@@ -3,7 +3,7 @@ const animals = [
     {
         name: "Caramelo",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "IMG-20240910-WA0065.jpg"
+        imageUrl: "IMG-20240910-WA0065.jpg."
     },
     {
         name: "Suzão",
