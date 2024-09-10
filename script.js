@@ -1,30 +1,29 @@
-// Dados dos 3 animais
+
 const animals = [
     {
         name: "Caramelo",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+        imageUrl: "IMG-20240910-WA0065.jpg"
     },
     {
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo institudto SOS 4 patas.",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg"
+        imageUrl: "IMG-20240910-WA0066.jpg"
     },
     {
         name: "Sandro",
         description: "Cãozinho amigável e amoroso, porte M, resgatado dasenchentes do RS.",
-        imageUrl: "https://cdn.pixabay.com/photo/2016/02/11/19/29/dog-1194083_1280.jpg"
+        imageUrl: "IMG-20240910-WA0067.jpg"
     },
     {
         name: "Ana",
         description: "FIV e FELV negativo, castrada, vacinada. Ela é bem assustada, então a família que quiser adotar terá que ter paciência com ela, mas nada que impessa de ter uma família."
-        imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+        imageUrl: "IMG-20240910-WA0064.jpg"
     },
     {
         name: "Luisa",
         description: "Precisa ser filha úncia, não gosta de dividir a atenção com outros doguinhos, mas é extremamente carinhosa e merece um lar cheio de amor.",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
-    },
+        imageUrl: "IMG-20240910-WA0068.jpg"
 ];
 
 let currentIndex = 0;
