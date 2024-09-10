@@ -1,20 +1,30 @@
 // Dados dos 3 animais
 const animals = [
     {
-        name: "Bolt",
-        description: "Um cachorro enérgico e amoroso que adora brincar ao ar livre.",
+        name: "Caramelo",
+        description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
         imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
     },
     {
-        name: "Luna",
-        description: "Uma gatinha calma e adorável, ideal para apartamentos.",
+        name: "Suzão",
+        description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo institudto SOS 4 patas.",
         imageUrl: "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg"
     },
     {
-        name: "Max",
-        description: "Cãozinho amigável, ótimo com crianças e outros animais.",
+        name: "Sandro",
+        description: "Cãozinho amigável e amoroso, porte M, resgatado dasenchentes do RS.",
         imageUrl: "https://cdn.pixabay.com/photo/2016/02/11/19/29/dog-1194083_1280.jpg"
-    }
+    },
+    {
+        name: "Ana",
+        description: "FIV e FELV negativo, castrada, vacinada. Ela é bem assustada, então a família que quiser adotar terá que ter paciência com ela, mas nada que impessa de ter uma família."
+        imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+    },
+    {
+        name: "Luisa",
+        description: "Precisa ser filha úncia, não gosta de dividir a atenção com outros doguinhos, mas é extremamente carinhosa e merece um lar cheio de amor.",
+        imageUrl: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+    },
 ];
 
 let currentIndex = 0;
@@ -39,7 +49,7 @@ document.getElementById('swipe-right').addEventListener('click', () => {
     
     // Defina o número de telefone e a mensagem
     const phoneNumber = "41 999446689"; // Substitua pelo seu número de WhatsApp, ex: "5541999999999"
-    const message = `Estou interessado em adotar o ${animal.name}.`;
+    const message = `Estou interessado em adotar o (a) ${animal.name}.`;
 
     // Monta o link para o WhatsApp
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
