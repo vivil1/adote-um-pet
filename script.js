@@ -1,33 +1,33 @@
 // Array de dados dos animais
 const animals = [
     {
-        name: "Caramelo",
+        name: "Cachrro1",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "images/IMG-20240910-WA0065.jpg",
+        imageUrl: "img dog",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
-        name: "Caramelo",
+        name: "Cachorro 2",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "images/IMG-20240910-WA0065.jpg",
+        imageUrl: "img dog",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
-        name: "Caramelo",
+        name: "Cachorro 3",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "images/IMG-20240910-WA0065.jpg",
+        imageUrl: "img dog",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
-        name: "Suzão",
+        name: "Cachorro 4",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
-        imageUrl: "images/IMG-20240910-WA0066.jpg",
+        imageUrl: "img god",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
     },
     {
-        name: "Sandro",
+        name: "cachorro 5",
         description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
-        imageUrl: "images/IMG-20240910-WA0067.jpg",
+        imageUrl: "img dog",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     }
 ];
