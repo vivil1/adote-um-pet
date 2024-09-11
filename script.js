@@ -1,6 +1,7 @@
+
 // Dados dos 5 animais
 const animals = [
-    
+
     {
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
