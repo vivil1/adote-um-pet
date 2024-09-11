@@ -1,3 +1,4 @@
+// Array de dados dos animais
 const animals = [
     {
         name: "Cachorro 1",
@@ -49,28 +50,35 @@ const animals = [
     }
 ];
 
-    // Adicione mais animais conforme necessário
-
 let currentAnimalIndex = 0;
 
-// Função para trocar da página de introdução para a página de adoção
-document.getElementById('start-adoption').addEventListener('click', function() {
-    document.querySelector('.intro-container').style.display = 'none';
-    document.getElementById('adoption-page').style.display = 'block';
-    showAnimal();
+// Garantir que o DOM seja carregado antes de adicionar os event listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Função para trocar da página de introdução para a página de adoção
+    document.getElementById('start-adoption').addEventListener('click', function() {
+        document.querySelector('.intro-container').style.display = 'none';
+        document.getElementById('adoption-page').style.display = 'block';
+        showAnimal();
+    });
+
+    // Função para exibir o próximo animal
+    function showAnimal() {
+        const animal = animals[currentAnimalIndex];
+        document.getElementById('animal-image').src = animal.imageUrl;
+        document.getElementById('animal-name').textContent = animal.name;
+        document.getElementById('animal-description').textContent = animal.description;
+        document.getElementById('animal-card').style.display = 'block';
+    }
+
+    // Função para pular um animal (❌)
+    document.getElementById('swipe-left').addEventListener('click', function() {
+        currentAnimalIndex = (currentAnimalIndex + 1) % animals.length;
+        showAnimal();
+    });
+
+    // Função para redirecionar ao WhatsApp (❤️)
+    document.getElementById('swipe-right').addEventListener('click', function() {
+        const animal = animals[currentAnimalIndex];
+        window.location.href = animal.whatsapp;
+    });
 });
-
-// Função para exibir o próximo animal
-function showAnimal() {
-    const animal = animals[currentAnimalIndex];
-    document.getElementById('animal-image').src = animal.imageUrl;
-    document.getElementById('animal-name').textContent = animal.name;
-    document.getElementById('animal-description').textContent = animal.description;
-    document.getElementById('animal-card').style.display = 'block';
-}
-
-// Função para pular um animal (❌)
-document.getElementById('swipe-left').addEventListener('click', function() {
-    currentAnimalIndex = (currentAnimalIndex + 1) % animals.length;
-    showAnimal();
-})
