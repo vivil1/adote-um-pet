@@ -3,8 +3,7 @@ const animals = [
     {
         name: "Cachorro 1",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "images/IMG-20240911-WA0042.jpg
-",
+        imageUrl: "images/IMG-20240911-WA0042.jpg"
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
