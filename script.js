@@ -43,8 +43,8 @@ const animals = [
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
     {
-        name: "Cachorro 8",
-        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
+        name: "Buck",
+        description: "Cãozinho e amoroso, porte M, foi abandonado na frente da escola CECSFA. Adoção responsável. Que tal mostrar para ele o que é o amor de uma família?",
         imageUrl: "images/IMG_20240911_101405_424.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     }
