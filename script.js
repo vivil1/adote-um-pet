@@ -19,8 +19,8 @@ const animals = [
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
     {
-        name: "Cachorro 4",
-        description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
+        name: "Zeus e Buzz",
+        description: "Dois machinhos à procura de uma família. Serão porte M. Aproximadamente 4 ou 5 meses.",
         imageUrl: "images/IMG-20240911-WA0045.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
     },
