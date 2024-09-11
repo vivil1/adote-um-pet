@@ -1,10 +1,6 @@
 // Dados dos 5 animais
 const animals = [
-    {
-        name: "Caramelo",
-        description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "images/IMG-20240910-WA0065.jpg"
-    },
+    
     {
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
