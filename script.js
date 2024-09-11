@@ -5,13 +5,13 @@ const animals = [
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
         imageUrl: "images/IMG-20240910-WA0066.jpg",
-        whatsapp: "https://wa.me/5511999999999?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
     },
     {
         name: "Sandro",
         description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
         imageUrl: "images/IMG-20240910-WA0067.jpg",
-        whatsapp: "https://wa.me/5511999999999?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     }
 ];
 
