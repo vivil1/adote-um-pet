@@ -71,3 +71,8 @@ document.getElementById('como-adotar-link').addEventListener('click', () => {
 document.getElementById('o-que-preciso-link').addEventListener('click', () => {
     alert('Página sobre o que é preciso para adotar um pet ainda não implementada.');
 });
+
+// Redirecionar para a página de adoção quando o botão "Iniciar Adoção" for clicado
+document.getElementById('start-adoption').addEventListener('click', function() {
+    window.location.href = 'adocao.html'; // Redireciona para a página de adoção
+});
