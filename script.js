@@ -37,8 +37,8 @@ const animals = [
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
     {
-        name: "cachorro 7",
-        description:".",
+        name: "Encantada",
+        description:"Cachorra fêmea para adoção. Porte M/G, mastrada, dócil e convive bem com outros cachorrinhos.",
         imageUrl: "images/IMG_20240911_101358_541.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
