@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 
 .intro-container, .container {
@@ -57,39 +58,36 @@ h1 {
     background-color: #45a049;
 }
 
-.info-content {
-    display: none;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-.info-content h2 {
-    margin-bottom: 15px;
-}
-
-.info-content p {
-    font-size: 16px;
-    margin-bottom: 10px;
+.buttons {
+    margin-top: 10px;
 }
 
 button {
     padding: 10px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 18px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
 }
 
-button#hide-denuncia,
-button#hide-contato,
-button#hide-como-adotar,
-button#hide-o-que-preciso {
+#swipe-left {
     background-color: #ff6b6b;
     color: white;
+}
+
+#swipe-right {
+    background-color: #4caf50;
+    color: white;
+}
+
+#animal-card {
+    display: none;
+    margin-top: 20px;
+}
+
+#animal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
