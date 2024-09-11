@@ -4,49 +4,49 @@ const animals = [
         name: "Dora",
         description: "Essa mocinha está à procura de uma família. Fêmea, porte P/M, aproximadamente 4 anos. Muito Brincalhona.",
         imageUrl: "images/IMG-20240911-WA0043.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20a%20Dora"
     },
     {
         name: "Bella e Max",
         description: "Filhotes para adoção responsável. 1 macho e 1 fêmea. Aproximadamente 3 meses.",
         imageUrl: "images/IMG-20240911-WA0042.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20a%20Bella%20e%20Max"
     },
     {
         name: "Pretinha",
         description: "Pretinha está à procura de uma família. Fêmea, porte M, aproximadamente 1 ano.",
         imageUrl: "images/IMG-20240911-WA0044.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20a%20Pretinha"
     },
     {
         name: "Zeus e Buzz",
         description: "Dois machinhos à procura de uma família. Serão porte M. Aproximadamente 4 ou 5 meses.",
         imageUrl: "images/IMG-20240911-WA0045.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Buzz%20e%20o%20Zeus"
     },
     {
         name: "Simba",
         description: "Cãozinho amigável e amoroso, está a procura da família ideal.",
         imageUrl: "images/IMG-20240911-WA0046.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Simba"
     },
     {
         name: "Duque",
         description: "Filhote macho para a adoção. Uma ótima opção de amigo para todos os momentos. Ele tem aproximadamente 3 meses.",
         imageUrl: "images/IMG-20240911-WA0047.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Duque"
     },
     {
         name: "Encantada",
         description:"Cachorra fêmea para adoção. Porte M/G, mastrada, dócil e convive bem com outros cachorrinhos.",
         imageUrl: "images/IMG_20240911_101358_541.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20a%20Encantada"
     },
     {
         name: "Buck",
         description: "Cãozinho e amoroso, porte M, foi abandonado na frente da escola CECSFA. Adoção responsável. Que tal mostrar para ele o que é o amor de uma família?",
         imageUrl: "images/IMG_20240911_101405_424.jpg",
-        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Buck"
     }
 ];
 
