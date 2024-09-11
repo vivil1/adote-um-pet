@@ -31,14 +31,14 @@ const animals = [
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
     {
-        name: "Cachorro 6",
-        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
+        name: "Duque",
+        description: "Filhote macho para a adoção. Uma ótima opção de amigo para todos os momentos. Ele tem aproximadamente 3 meses.",
         imageUrl: "images/IMG-20240911-WA0047.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
     {
-        name: "Duque",
-        description:"Filhote macho para a adoção. Uma ótima opção de amigo para todos os momentos. Ele tem aproximadamente 3 meses.",
+        name: "cachorro 7",
+        description:".",
         imageUrl: "images/IMG_20240911_101358_541.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
