@@ -1,33 +1,52 @@
 // Array de dados dos animais
 const animals = [
     {
-        name: "Cachrro1",
+        name: "Cachorro 1",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "img dog",
+        imageUrl: "images/IMG-20240911-WA0042.jpg
+",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
         name: "Cachorro 2",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "img dog",
+        imageUrl: "images/IMG-20240911-WA0043.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
         name: "Cachorro 3",
         description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
-        imageUrl: "img dog",
+        imageUrl: "images/IMG-20240911-WA0044",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
     },
     {
         name: "Cachorro 4",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
-        imageUrl: "img god",
+        imageUrl: "images/IMG-20240911-WA0045",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
     },
     {
         name: "cachorro 5",
         description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
-        imageUrl: "img dog",
+        imageUrl: "images/IMG-20240911-WA0046",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+    },
+    {
+        name: "cachorro 6",
+        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
+        imageUrl: "images/IMG-20240911-WA0047",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+    },
+    {
+        name: "cachorro 7",
+        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
+        imageUrl: "images/IMG_20240911_101358_541.jpg",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
+    },
+    {
+        name: "cachorro 8",
+        description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
+        imageUrl: "images/IMG_20240911_101405_424.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     }
 ];
