@@ -6,97 +6,52 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 20px;
 }
 
-.container {
+.intro-container {
     text-align: center;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.caramelo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
-#animal-card {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin: 0 auto;
-    position: relative;
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-#animal-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-#animal-name {
-    margin-top: 15px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-#animal-description {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-around;
+.start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     margin-top: 20px;
 }
 
-button {
-    font-size: 24px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-#swipe-left {
-    background-color: #ff6b6b;
-    color: white;
-}
-
-#swipe-right {
-    background-color: #4caf50;
-    color: white;
-}
-
-.info-section {
-    margin-top: 30px;
-}
-
-.info-section h2 {
-    margin-bottom: 15px;
-}
-
-.info-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.info-section li {
-    margin: 10px 0;
-}
-
-.info-section a {
-    text-decoration: none;
-    color: #007bff;
-    font-size: 18px;
-}
-
-.info-section a:hover {
-    text-decoration: underline;
+.start-button:hover {
+    background-color: #45a049;
 }
