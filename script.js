@@ -1,16 +1,33 @@
 // Array de dados dos animais
 const animals = [
-   
+    {
+        name: "Caramelo",
+        description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
+        imageUrl: "IMG-20240910-WA0065.jpg",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
+    },
+    {
+        name: "Caramelo",
+        description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
+        imageUrl: "IMG-20240910-WA0065.jpg",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
+    },
+    {
+        name: "Caramelo",
+        description: "Um cachorro calmo e amoroso, ele está velhinho, mas já está na hora de conhecer o que é o amor. Porte M.",
+        imageUrl: "IMG-20240910-WA0065.jpg",
+        whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Caramelo"
+    },
     {
         name: "Suzão",
         description: "Está à procura de um lar cheio de amor e carinho, foi resgatado pelo instituto SOS 4 patas.",
-        imageUrl: "images/IMG-20240910-WA0066.jpg",
+        imageUrl: "IMG-20240910-WA0066.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Suzão"
     },
     {
         name: "Sandro",
         description: "Cãozinho amigável e amoroso, porte M, resgatado das enchentes do RS.",
-        imageUrl: "images/IMG-20240910-WA0067.jpg",
+        imageUrl: "IMG-20240910-WA0067.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     }
 ];
@@ -44,3 +61,13 @@ document.getElementById('swipe-right').addEventListener('click', function() {
     const animal = animals[currentAnimalIndex];
     window.location.href = animal.whatsapp;
 });
+
+// Função para mostrar informações adicionais
+document.getElementById('show-denuncia').addEventListener('click', function() {
+    showInfo("Denúncia de Maus Tratos", "Aqui você encontrará informações sobre como denunciar maus-tratos a animais. É importante saber como proceder caso presencie ou tenha conhecimento de situações de abuso.");
+});
+
+document.getElementById('show-como-adotar').addEventListener('click', function() {
+    showInfo("Como Adotar um Pet", "Para adotar um pet, entre em contato com um dos nossos representantes e siga os procedimentos necessários, como a entrevista e a análise do ambiente.");
+});
+
