@@ -38,7 +38,7 @@ const animals = [
     },
     {
         name: "Duque",
-        description:"Filhote macho para a adoção. Uma ótima opção de amigo para todos os momentos. Ele tem aproximadamente 3 meses."
+        description:"Filhote macho para a adoção. Uma ótima opção de amigo para todos os momentos. Ele tem aproximadamente 3 meses.",
         imageUrl: "images/IMG_20240911_101358_541.jpg",
         whatsapp: "https://wa.me/5541999446689?text=Estou%20interessado%20em%20adotar%20o%20Sandro"
     },
